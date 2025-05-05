@@ -6,4 +6,10 @@ using namespace std;
     void tampilnama(){
         cout << "Namanya adalah: " << nama << endl;
     }
- )
+ );
+ 
+ class staff(
+    public:
+    int nidn;
+ );
+    
