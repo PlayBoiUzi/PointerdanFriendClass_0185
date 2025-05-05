@@ -8,8 +8,31 @@ using namespace std;
     }
  );
  
- class staff(
+ class staff (
     public:
     int nidn;
  );
+
+ int main(){
+    Dosen ds;
+    ds.nama = "Giga";
+    dserf.tampilnama();
+
+    Dosen *pds = &ds;
+    pds->nama = "Joko";
+    cout << " Alamat Memori =" << pds << endl
+    dsref.tampilnama();
+
+    Dosen *pds = &ds;
+    pds->nama = "Reza";
+    cout << " Alamat Memori =" << pds << endl;
+    pds->tampilnama();
+
+    int a = 5;
+    int b = 3;
+    int *c = &a;
+    *c = 9;
+    
+
+ }
     
