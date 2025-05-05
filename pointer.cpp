@@ -1,26 +1,27 @@
 #include <iostream>
 using namespace std;
 
- class Dosen(
+ class Dosen{
     public:
+    string nama;
     void tampilnama(){
         cout << "Namanya adalah: " << nama << endl;
     }
- );
+};
  
- class staff (
+ class staff{
     public:
     int nidn;
- );
+};
 
  int main(){
     Dosen ds;
     ds.nama = "Giga";
-    dserf.tampilnama();
+    ds.tampilnama();
 
-    Dosen *pds = &ds;
-    pds->nama = "Joko";
-    cout << " Alamat Memori =" << pds << endl
+    Dosen &dsref = ds;
+    dsref.nama = "Joko";
+    cout << " Alamat Memori =" << &dsref << endl;
     dsref.tampilnama();
 
     Dosen *pds = &ds;
