@@ -19,5 +19,21 @@ class siswa
 private:
     int id;
 
+    public:
+    void setId(int Pid);
+    void displayAll(orang &a);
+};
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
+void siswa::setId(int Pid)
+{
+    id = Pid;
+}
+void siswa::displayAll(orang &a)
+{
+    cout << id << endl << a.nama;
+}
 
 
